@@ -1,0 +1,106 @@
+.hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+/*About section */
+.hero-mid{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.hero-mid img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.hero-mid h1{
+    padding: 4rem;
+}
+
+img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.hero-text ::before .wave {
+        position:relative; 
+        bottom:  -20rem; left:0 ;
+        width:100%;
+        height:20rem; 
+        background-image: url(../assets/wave.png);
+        background-size:100rem 11rem; 
+        background-repeat: repeat-x;
+        animation:wave 10s linear infinite;
+    }
+    .home .wave2 {
+        animation-direction: reverse;
+        opacity:.2;
+    }
+    .home .wave3 {
+        animation-duration: 4s;
+        opacity:.9;
+    }
+
+
+.hero-text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text p{
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0.5rem 0 2rem 0;
+}
+.hero-text .hide{
+    display: none;
+}
+.hero-text .show{
+    text-decoration: none;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}
+
+
+
+
+
+@media screen and (max-width: 820px){
+    .hero-text h1{
+        padding: 10px 20px;
+    }
+    .hero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 3rem 0;
+    }
+    img{
+        width: 100%;
+        object-fit: fill;
+
+    }
+    .hero-text .show{
+        padding: 0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+        
+    }
+}

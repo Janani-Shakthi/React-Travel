@@ -1,0 +1,63 @@
+body .bg{
+    background: rgb(4, 4, 43);
+    height: 100vh;
+}
+
+section{
+    width: 70%;
+    height: 80vh;
+    background: #fff;
+    position: relative;
+    top: 3.5rem;
+    left: 11rem;
+}
+.register{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.col-1{
+    margin: 2rem 6rem 2rem 3rem;
+}
+.col-1 span{
+    font-size: .8rem;
+    
+}
+
+.col-1 form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+.col-1 input{
+    padding: .5rem;
+    border-radius: 5px;
+    margin: 1rem 0 1rem 0;
+    border: 1px solid #000;
+}
+
+span{
+    color: red;
+    font-size: rem
+}
+
+.btn{
+    margin-top: .5rem;
+    padding: 8px 0 8px 0;
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+    align-items: center;
+}
+.btn:hover{
+    background: #333;
+}
+
+
+.col-2 img{
+    width: 95%;
+    margin-left: 2rem;
+    height: 101.7%;
+    object-fit: fill;
+    
+}

@@ -1,12 +1,12 @@
 import "./HeroStyles.css";
-import Wave from"../assets/wave.png";
+
 
 
 function Hero(props) {
     return(
         <>
           <div className={props.cName}>
-             <img src={props.heroImg} />
+             <img src={props.heroImg} alt="hero section"/>
              <div className="wave "> </div>
 
             <div className="hero-text">

@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form'
 
 export default function Signing(){
 
-  const{register,handleSubmit,watch,formState: { errors },}=useForm()
+  const{register,handleSubmit,watch,}=useForm()
   const onSubmit = (data) =>console.log(data)
 
   console.log(watch("username"))
